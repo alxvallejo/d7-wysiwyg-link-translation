@@ -1,5 +1,12 @@
 [
     "index.md",
     "what-and-when.md",
-    "what.md"
+    "what.md",
+    "example-wysiwyg.md",
+    "why-not-regex.md",
+    "regex-examples.md",
+    "reasons-to-not-parse-html-with-regex.md",
+    "domdocument.md",
+    "lookup-lang-url.md",
+    "alias-is-in-path.md"
 ]
