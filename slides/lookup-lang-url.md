@@ -1,6 +1,6 @@
 ##  node/ is in path
 
-```
+```php
 if (strstr($href, 'node/')) {
     $url_parts = explode('node/', $href);
     $nid = $url_parts[1];

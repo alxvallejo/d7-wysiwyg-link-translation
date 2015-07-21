@@ -7,6 +7,8 @@
     "regex-examples.md",
     "reasons-to-not-parse-html-with-regex.md",
     "domdocument.md",
+    "hashes-and-arguments.md",
     "lookup-lang-url.md",
-    "alias-is-in-path.md"
+    "alias-is-in-path.md",
+    "set-the-dom.md"
 ]
