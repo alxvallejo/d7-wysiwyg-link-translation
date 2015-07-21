@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "WYSWIWYG Link Translation",
+    "packageVersion": "0.0.0",
+    "revealTheme": "sky",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "alxvallejo",
+    "githubRepository": "d7-wysiwyg-link-translation"
+  }
+}
