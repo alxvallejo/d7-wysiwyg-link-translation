@@ -7,7 +7,7 @@ if (strstr($href, 'node/')) {
     // Check language of url
     $node = node_load($nid);
     if (isset($node->tnid)) {
-    	$check = intralinks_core_lookup_lang_url($node->tnid);
+    	$check = translation_node_get_translations($node->tnid);
     }
 }
 ```
