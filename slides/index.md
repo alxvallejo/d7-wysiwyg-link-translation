@@ -1,2 +1,4 @@
 
-# WYSWIWYG Link Translation
+# WYSIWYG Link Translation
+
+### Alex Vallejo
