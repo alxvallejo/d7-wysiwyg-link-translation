@@ -1,4 +1,4 @@
-##  node/ is in path
+##  node/1234
 
 ```php
 if (strstr($href, 'node/')) {
