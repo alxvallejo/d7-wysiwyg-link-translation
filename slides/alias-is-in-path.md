@@ -1,4 +1,4 @@
-##  Alias is in path
+##  /alias-in-path
 
 ```php
 $path = drupal_get_normal_path($path, $lang);

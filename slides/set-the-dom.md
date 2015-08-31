@@ -8,6 +8,7 @@ $urls_translated++;
 ```php
 if ($urls_translated > 0) {
 	$new_subject = preg_replace('/^<!DOCTYPE.+?>/', '', str_replace( array('<html>', '</html>', '<body>', '</body>'), array('', '', '', ''), $dom->saveHTML()));
+	$new_subject = html_entity_decode($new_subject);
 	$num_updated = db_update($table)
 	  ->fields(array(
 	    $field . '_value' => $new_subject

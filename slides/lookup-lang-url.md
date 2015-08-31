@@ -1,4 +1,4 @@
-##  node/ is in path
+##  node/1234
 
 ```php
 if (strstr($href, 'node/')) {
@@ -7,7 +7,7 @@ if (strstr($href, 'node/')) {
     // Check language of url
     $node = node_load($nid);
     if (isset($node->tnid)) {
-    	$check = intralinks_core_lookup_lang_url('node/' . $node->tnid, $lang);
+    	$check = intralinks_core_lookup_lang_url($node->tnid);
     }
 }
 ```
